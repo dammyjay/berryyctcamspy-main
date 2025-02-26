@@ -76,7 +76,10 @@
         object-fit: cover; 
         border-radius: 10px;
       }
-
+      .mute{
+        position: absolute;
+        bottom: 20px;
+      }
 
       .myVideo {
         position: absolute;
@@ -210,7 +213,7 @@
        
         <video id="localVideo" class="myVideo" autoplay playsinline muted></video>
         <video id="remoteVideo" autoplay playsinline></video>
-        <button id="muteButton">Mute</button>
+        <button id="muteButton" class="mute">Mute</button>
         <div id="videoUnavailable" style="display: none">
           Video is not available
         </div>
