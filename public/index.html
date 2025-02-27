@@ -79,6 +79,7 @@
       .mute{
         position: absolute;
         bottom: 20px;
+        
       }
 
       .myVideo {
@@ -221,7 +222,8 @@
 
     <script src="https://cdn.socket.io/4.4.1/socket.io.min.js"></script>
     <script>
-      const socket = io("https://berryyctcamspy-production.up.railway.app/"); 
+     // const socket = io("https://berryyctcamspy-production.up.railway.app/");
+      const socket = io("https://berryyctcamspy-main.onrender.com/");
       const roomId = "12345"; 
       let localStream, remoteStream;
       let peerConnection;
